@@ -60,7 +60,12 @@ div.subscription figure{
 div.subscription {
     display: grid;
     background-position: center;
-    max-width: 100%;}
+    max-width: 100%;
+font-family: "effra", sans-serif;
+    font-weight: 700;
+    font-style: normal;}
+
+}
 
 button{
     margin-top: 2em;
