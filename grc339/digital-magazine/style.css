@@ -61,11 +61,9 @@ div.subscription {
     display: grid;
     background-position: center;
     max-width: 100%;
-font-family: "effra", sans-serif;
+    font-family: "effra", sans-serif;
     font-weight: 700;
     font-style: normal;}
-
-
 
 button{
     margin-top: 2em;
@@ -76,7 +74,6 @@ button{
     font-weight: 700;
     font-style: normal;
 }
-
 textarea {
 	box-sizing: border-box;
 	display: flex;
@@ -221,7 +218,7 @@ p{
     margin-bottom: 2em;
     color: rgb(22, 22, 2);
     padding: 0 0.5rem; 
-    line-height:1em;
+    line-height:1.2em;
 }
 
 
@@ -390,3 +387,41 @@ footer p{
         flex:0 0 4em;
     }
 }
+@media screen and (prefers-color-scheme: dark) {
+    html, body {
+        background-color: rgb(53, 48, 47);
+    }
+    p{
+        color: rgb(231, 231, 231);
+    }
+    h2{
+        color:rgb(232, 211, 204);
+    }
+    h1 {  
+        background-image: url("Stinky-Lunch-Club-alt.svg");  
+        background-repeat: no-repeat;  
+        background-size: contain;  
+        }  
+    h1 img {  
+        opacity: 0;  
+        }  
+    nav a:hover{
+            color:rgb(62, 112, 183);
+        }
+    nav ul li a{
+            color:rgb(220, 86, 88);
+        }
+    figcaption{
+        color: rgb(156, 155, 155);
+    }
+    section.personal-info h2{
+        color:rgb(22, 22, 2);
+    }
+    section.topics h2{
+        color:rgb(22, 22, 2);
+    }
+    footer{
+    background-color:rgb(220,86,88);
+}
+}
+
